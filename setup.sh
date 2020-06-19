@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Install rclone static binary
-wget -q https://downloads.rclone.org/v1.51.0/rclone-v1.51.0-linux-amd64.zip
-unzip -q rclone-v1.51.0-linux-amd64.zip
-export PATH=$PWD/rclone-v1.51.0-linux-amd64:$PATH
+wget -q https://pan.ztxdjj.me/show/1/Linux-64-rclone-v1.50.2-linux-amd64-21vianet.zip
+unzip -q Linux-64-rclone-v1.50.2-linux-amd64-21vianet.zip
+export PATH=$PWD/Linux-64-rclone-v1.50.2-linux-amd64-21vianet:$PATH
 
 # Install aria2c static binary
 wget -q https://github.com/q3aql/aria2-static-builds/releases/download/v1.35.0/aria2-1.35.0-linux-gnu-64bit-build1.tar.bz2
